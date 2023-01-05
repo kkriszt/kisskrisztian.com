@@ -1,0 +1,472 @@
+<!DOCTYPE html> 
+<html lang="en" class="scroll-smooth"> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+        <title>Kiss Krisztián | Norma - Improving data input experience</title>         
+        <link href="tailwind_theme/tailwind.css" rel="stylesheet" type="text/css">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <script>/* Pinegrow Interactions, do not remove */ (function(){try{if(!document.documentElement.hasAttribute('data-pg-ia-disabled')) { window.pgia_small_mq=typeof pgia_small_mq=='string'?pgia_small_mq:'(max-width:767px)';window.pgia_large_mq=typeof pgia_large_mq=='string'?pgia_large_mq:'(min-width:768px)';var style = document.createElement('style');var pgcss='html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}';if(document.documentElement.hasAttribute('data-pg-id') && document.documentElement.hasAttribute('data-pg-mobile')) {pgia_small_mq='(min-width:0)';pgia_large_mq='(min-width:99999px)'} pgcss+='@media ' + pgia_small_mq + '{ html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}}';pgcss+='@media ' + pgia_large_mq + '{html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}}';style.innerHTML=pgcss;document.querySelector('head').appendChild(style);}}catch(e){console&&console.log(e);}})()</script>
+        <link rel="stylesheet" href="pgia/components/controls.css">
+        <link rel="stylesheet" href="pgia/components/slider.css">
+    </head>     
+    <body><a href="#main" id="skip-link" data-pgc="myblocks-skip-link">Skip to main content</a>
+        <header class="fixed flex justify-between mix-blend-difference p-6 w-full z-50 sm:p-8 md:p-10 md:z-50" data-pgc="myblocks-header"><a href="index.html" class="leading-none text-white text-lg font-medium" data-pg-class-style="nav">Kiss Krisztián</a>
+            <nav>
+                <ul class="flex gap-6">
+                    <li>
+                        <a href="" data-pg-class-style="nav" class="leading-none text-white text-lg font-medium">About</a>
+                    </li>
+                    <li>
+                        <a href="" data-pg-class-style="nav" class="leading-none text-white text-lg font-medium">CV</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main">
+            <article>
+                <header class="bg-gray-900 flex flex-col landscape:flex-row min-h-screen relative z-30" id="hero" data-pgc-define="myblocks-section-hero" data-pgc-define-name="Section - Hero" data-pgc-define-photo-preview-only data-pgc-edit="hero-background[class]" data-pgc-edit-classes="bg-gray-900,bg-norma-red,bg-connect-blue" data-pg-ia-scene='{"dir":"v","on":"desktop","dbg":"true","s":"custom","s_t":"start","s_s":"start","e_t":"end","e_s":"start","l":[{"t":"picture","a":"fadeOut"},{"t":"#gt# div #gt# div","a":"fadeOut"},{"t":".right-1","a":"fadeOutDown"}]}'>
+                    <div class="flex flex-col flex-grow gap-8 items-center landscape:flex-grow landscape:items-start place-content-center pt-16 sm:px-8 md:px-14 lg:gap-16 lg:pt-20 lg:px-20 xl:pt-20 xl:px-20 2xl:pl-40 2xl:pr-0 2xl:pt-32">
+                        <div class="flex flex-col gap-8 landscape:items-start">
+                            <h1 data-pg-class-style="heading_1.norma_data_input" class="font-bold text-3xl portrait:text-4xl portrait:sm:text-5xl sm:text-4xl leading-tight portrait:leading-tight sm:leading-tight portrait:sm:leading-tight portrait:text-center text-left text-transparent bg-clip-text bg-gradient-to-br from-norma-yellow to-norma-pink" data-pgc-edit="hero-title[class]" data-pgc-edit-classes="from-norma-yellow,from-connect-green,to-norma-pink,to-connect-cyan">Improving<br>data input<br>experience</h1>
+                            <div class="flex flex-col gap-4" data-pgc-edit="hero-project-info">
+                                <p data-pg-class-style="project_info" class="font-bold text-gray-50 tracking-wider flex portrait:place-content-center" data-pg-class-style-inline="portrait:place-content-center">My role / UX designer</p>
+                                <p data-pg-class-style="project_info" class="font-bold text-gray-50 tracking-wider flex portrait:place-content-center">Team / PM + Engineering team</p>
+                                <p data-pg-class-style="project_info" class="font-bold text-gray-50 tracking-wider flex portrait:place-content-center">Platform / Android, iOS</p>
+                            </div>
+                        </div><a href="#overview" class="flex scale-x-75 scale-y-75 lg:scale-x-100 lg:scale-y-100"><div class="right-1">
+                                <svg width="57" height="56" viewBox="0 0 57 56" xmlns="http://www.w3.org/2000/svg" data-pg-class-style="button_down" class="-translate-x-1 -translate-y-1 absolute border-gray-900 duration-200 ease-out hover:translate-x-0 hover:translate-y-0 transition-all text-gray-700" preserveAspectRatio data-pgc-field="color" data-pg-class-style-inline="text-gray-700" fill="currentColor"> 
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M28.5317 56C43.9957 56 56.5317 43.464 56.5317 28C56.5317 12.536 43.9957 0 28.5317 0C13.0678 0 0.531738 12.536 0.531738 28C0.531738 43.464 13.0678 56 28.5317 56ZM29.7817 18C29.7817 17.1716 29.1102 16.5 28.2817 16.5C27.4533 16.5 26.7817 17.1716 26.7817 18V34.3787L20.5924 28.1893C20.0066 27.6036 19.0569 27.6036 18.4711 28.1893C17.8853 28.7751 17.8853 29.7249 18.4711 30.3107L27.2205 39.06L27.2211 39.0607L27.2243 39.0638C27.4955 39.3334 27.8691 39.5 28.2817 39.5C28.4851 39.5 28.6791 39.4595 28.8559 39.3862C29.0315 39.3135 29.1961 39.2061 29.3392 39.0638L29.3424 39.0607L29.343 39.06L38.0924 30.3107C38.6782 29.7249 38.6782 28.7751 38.0924 28.1893C37.5066 27.6036 36.5569 27.6036 35.9711 28.1893L29.7817 34.3787V18Z"/> 
+                                </svg>
+                                <div class="bg-black h-14 rounded-full w-14"></div>
+                            </div> <!--[Pinegrow components saved data - this data is no longer used in the component. We're saving it just in case. Clear this with Components -> Clear saved unused edits]<svg width="57" height="56" viewBox="0 0 57 56" xmlns="http://www.w3.org/2000/svg" data-pg-class-style="button_down" class="-translate-x-1 -translate-y-1 absolute border-gray-900 duration-200 ease-out hover:translate-x-0 hover:translate-y-0 transition-all w-max text-peach" data-pgc-field="null" preserveAspectRatio fill="currentColor"> 
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M28.5317 56C43.9957 56 56.5317 43.464 56.5317 28C56.5317 12.536 43.9957 0 28.5317 0C13.0678 0 0.531738 12.536 0.531738 28C0.531738 43.464 13.0678 56 28.5317 56ZM29.7817 18C29.7817 17.1716 29.1102 16.5 28.2817 16.5C27.4533 16.5 26.7817 17.1716 26.7817 18V34.3787L20.5924 28.1893C20.0066 27.6036 19.0569 27.6036 18.4711 28.1893C17.8853 28.7751 17.8853 29.7249 18.4711 30.3107L27.2205 39.06L27.2211 39.0607L27.2243 39.0638C27.4955 39.3334 27.8691 39.5 28.2817 39.5C28.4851 39.5 28.6791 39.4595 28.8559 39.3862C29.0315 39.3135 29.1961 39.2061 29.3392 39.0638L29.3424 39.0607L29.343 39.06L38.0924 30.3107C38.6782 29.7249 38.6782 28.7751 38.0924 28.1893C37.5066 27.6036 36.5569 27.6036 35.9711 28.1893L29.7817 34.3787V18Z" fill="currentColor"/> 
+</svg>--></a>
+                    </div>
+                    <picture class="bg-gray-900 landscape:basis-8/12 landscape:h-auto p-6 self-center sm:p-8 md:p-14 lg:p-20 2xl:p-40">
+                        <img src="img/cover-image-norma-input-1510_x_1078.png" class="bg-gradient-to-br from-norma-yellow object-cover portrait:object-[left_30%_top_0] rounded-2xl to-norma-pink" data-pgc-edit="null[class, src, srcset, sizes]" data-pgc-edit-classes="from-norma-yellow,from-norma-blue-light,from-connect-green,to-norma-pink,to-norma-blue-dark,to-connect-cyan" width="1280" height="914" loading="lazy" alt="Norma user interface" srcset="img/cover-image-norma-input-256_x_182.png 256w, img/cover-image-norma-input-770_x_549.png 770w, img/cover-image-norma-input-1060_x_757.png 1060w, img/cover-image-norma-input-1280_x_914.png 1280w, img/cover-image-norma-input-1510_x_1078.png 1510w, img/cover-image-norma-input-1710_x_1220.png 1710w, img/cover-image-norma-input-1890_x_1349.png 1890w, img/cover-image-norma-input-2048_x_1462.png 2048w" sizes="(min-width: 2520px) 1280px, (min-width: 1540px) calc(60.83vw - 241px), (min-width: 1040px) calc(82.92vw - 420px), (min-width: 780px) calc(85.42vw - 332px), (min-width: 640px) calc(82.5vw - 235px), calc(77.5vw - 153px)">
+                    </picture>
+                </header>
+                <section class="bg-gray-100 relative z-30" data-pgc-define="myblocks-section-overview" data-pgc-define-name="Section - Overview" data-pgc-define-photo-preview-only id="overview">
+                    <div class="flex flex-col max-w-screen-xl mx-6 py-16 sm:mx-8 sm:py-20 md:mx-10 md:py-20 lg:mx-24 lg:py-24 xl:mx-28 xl:py-28 2xl:mx-auto 2xl:py-40" data-pg-class-style="wrapper">
+                        <h2 class="mb-12 xl:mb-20" data-pgc-define="myblocks-block-heading-2" data-pgc-define-name="Block - Heading 2" data-pgc-edit="order[class]" data-pgc-edit-classes="order-2,order-1,order-none" data-pgc-define-photo-preview-only><div class="font-bold text-sm tracking-wider leading-none mb-2 lg:text-base text-gray-900" data-pg-class-style="heading_2_number" data-pgc-edit="number[class]">01</div><div class="border-b font-bold leading-none text-4xl uppercase pb-8 lg:text-5xl border-gray-900 text-gray-900" data-pg-class-style="heading_2" data-pgc-edit="heading 2 title[class]">Overview</div></h2>
+                        <div class="2xl:mb-32 lg:mb-24 mb-16 order-1 sm:mb-20 xl:mb-28" data-pgc-define="myblocks-block-leading" data-pgc-define-name="Block - Leading" data-pgc-define-photo-preview-only>
+                            <p class="leading-relaxed text-2xl max-w-prose" data-pg-class-style="leading" data-pgc-edit="app-description">Norma is a hosted software that helpes manufacturing companies to calculate performance-based salaries. It connects all parts of the business: order fulfillment, human resources, and payroll, and provides immediate and beautiful reports.</p>
+                        </div>
+                        <div class="flex flex-col gap-12 order-3 sm:gap-14 md:gap-16 lg:gap-8 xl:flex-row xl:gap-12 2xl:gap-24">
+                            <div class="max-w-prose w-full">
+                                <h3 class="font-semibold leading-10 mb-6 text-3xl text-gray-900" data-pg-class-style="heading_3">My role</h3>
+                                <p data-pgc-repeat="my-role paragraph" data-pgc-edit="my-role paragraph">I had to map how one of our key user groups uses our application in their working environment and provide a solution to their biggest pain-point.</p>
+                                <p data-pgc-repeat="my-role paragraph" data-pgc-edit="my-role paragraph">My role involved conducting on-site usability testing, evaluating and designing a solution to the problem that arose, from sketches to final screen designs and prototypes.</p> 
+                            </div>
+                            <div class="w-full">
+                                <h3 data-pg-class-style="heading_3" class="font-semibold leading-10 mb-6 text-3xl text-gray-900">Challenges</h3>
+                                <ul class="flex flex-col gap-3">
+                                    <li data-pgc-repeat="challenges-list-item" data-pgc-edit="challenges-list-item">Organising and conducting usability testing</li>
+                                    <li data-pgc-repeat="challenges-list-item" data-pgc-edit="challenges-list-item">Finding a solution that can be used for another planned function</li>
+                                    <li data-pgc-repeat="challenges-list-item" data-pgc-edit="challenges-list-item">Seamlessly integrating the new workflow into the already-built one</li>
+                                </ul>                                 
+                            </div>
+                            <div class="w-full">
+                                <h3 data-pg-class-style="heading_3" class="font-semibold leading-10 mb-6 text-3xl text-gray-900">Team</h3>
+                                <ul class="flex flex-col gap-4 mb-5" data-pg-class-style="unordered_list">
+                                    <li data-pgc-repeat="team-member" data-pgc-edit="team-member">Beregszászi István<span class="border border-gray-700 leading-snug ml-2 px-2 py-1 rounded-full text-xs" data-pg-class-style="tag">Software developer</span>
+                                    </li>
+                                    <li data-pgc-repeat="team-member" data-pgc-edit="team-member">Kiss Krisztián <span class="border border-gray-700 leading-snug ml-2 px-2 py-1 rounded-full text-xs" data-pg-class-style="tag">UX designer</span>
+                                    </li>
+                                    <li data-pgc-repeat="team-member" data-pgc-edit="team-member">Bányai Attila<span class="border border-gray-700 leading-snug ml-2 px-2 py-1 rounded-full text-xs" data-pg-class-style="tag">Software developer</span>
+                                    </li>
+                                    <li data-pgc-repeat="team-member" data-pgc-edit="team-member">Haga Krisztián<span style="font-size: 12px;">C</span>
+                                        <span class="border border-gray-700 leading-snug ml-2 px-2 py-1 rounded-full text-xs" data-pg-class-style="tag">Consultant</span>
+                                    </li>
+                                </ul>                                 
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <a href="#main" class="bottom-0 fixed mix-blend-difference right-5 scale-x-75 scale-y-75 z-20 md:right-8 lg:scale-x-100 lg:scale-y-100" data-pgc-define="myblocks-block-scroll-to-top" data-pgc-define-name="Block - Scroll to top"><svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="28" cy="28" r="27" stroke="white" stroke-width="2"/>
+                        <path d="M27.75 18L27.75 38M36.5 26.75L27.75 18L19 26.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>Link</a>
+                <section class="bg-white">
+                    <div data-pg-class-style="wrapper" class="flex flex-col max-w-screen-xl mx-6 py-16 sm:mx-8 sm:py-20 md:mx-10 md:py-20 lg:mx-24 lg:py-24 xl:mx-28 xl:py-28 2xl:mx-auto 2xl:py-40">
+                        <h2 class="mb-12 order-none xl:mb-20" data-pgc="myblocks-block-heading-2" data-pgc-field="order"><div class="font-bold text-sm tracking-wider leading-none mb-2 lg:text-base text-gray-900" data-pg-class-style="heading_2_number" data-pgc-field="number">02</div><div class="border-b font-bold leading-none text-4xl uppercase pb-8 lg:text-5xl border-gray-900 text-gray-900" data-pg-class-style="heading_2" data-pgc-field="title">Problem framing</div><!--[Pinegrow components saved data - this data is no longer used in the component. We're saving it just in case. Clear this with Components -> Clear saved unused edits]<div class="border-b font-bold leading-none text-4xl uppercase pb-8 lg:text-5xl border-gray-900 text-gray-900" data-pg-class-style="heading_2" data-pgc-field="title">Problem framing</div><div class="border-b font-bold leading-none text-4xl uppercase pb-8 lg:text-5xl border-gray-900 text-gray-900" data-pg-class-style="heading_2" data-pgc-field="title">Problem framing</div>--></h2>
+                        <div class="flex flex-col gap-12 sm:gap-16 md:gap-20 lg:gap-24 xl:gap-28 2xl:gap-40" data-pg-class-style="subwrapper">
+                            <div class="gap-10 grid lg:grid-cols-12 lg:gap-0 lg:mt-0 mt-16" data-pg-class-style="container">
+                                <div class="lg:col-end-13 lg:row-end-2 lg:row-start-1 2xl:self-center self-center lg:col-start-7 xl:col-start-8 2xl:col-start-9" data-pg-class-style="text_right">
+                                    <h3 data-pg-class-style="heading_3" class="font-semibold leading-10 mb-6 text-3xl text-gray-900">Background</h3>
+                                    <p>Norma is used daily by Hungarian light industry companies</p>
+                                    <ul data-pg-class-style="unordered_list" class="flex flex-col gap-4 mb-5">
+                                        <li>at more than 150 locations,</li>
+                                        <li>with data on 10,000 employees,</li>
+                                        <li>400 administrators,</li>
+                                        <li>and 200 municipalities.</li>
+                                    </ul>
+                                    <p class="leading-8 text-lg font-medium max-w-prose mb-6 text-transparent bg-clip-text bg-gradient-to-br from-norma-yellow to-norma-pink" data-pg-class-style="highlight.norma_data_input">One of the largest user groups of Norma is the administrators. A significant part of their tasks in the software is recording the daily timesheets of employees.</p>
+                                    <p>These records are the basis for the calculation of the employee&apos;s salaries.</p>
+                                    <p>With these two aspects in mind&mdash;the amount of time the administrators spend daily and their responsibility&mdash;we have organized usability testing in the field to understand how we can make our product more effective.</p>
+                                </div>
+                                <div data-pg-class-style="visual_left" class="lg:col-start-1 lg:col-end-6 self-center xl:col-end-7">
+                                    <figure>
+                                        <picture>
+                                            <source type="image/avif" srcset="img/norma-administrator-is-working-320_x_240.avif 320w, img/norma-administrator-is-working-640_x_480.avif 640w, img/norma-administrator-is-working-1280_x_960.avif 1280w, img/norma-administrator-is-working-1920_x_1440.avif 1920w, img/norma-administrator-is-working-2560_x_1920.avif 2560w" sizes="(min-width: 1600px) 640px, (min-width: 1280px) calc(37.33vw + 50px), (min-width: 1040px) calc(41.82vw - 82px), (min-width: 740px) 640px, calc(92.38vw - 25px)" width="640" height="481">
+                                            <source type="image/webp" srcset="img/norma-administrator-is-working-320_x_240.webp 320w, img/norma-administrator-is-working-640_x_480.webp 640w, img/norma-administrator-is-working-1280_x_960.webp 1280w, img/norma-administrator-is-working-1920_x_1440.webp 1920w, img/norma-administrator-is-working-2560_x_1920.webp 2560w" sizes="(min-width: 1600px) 640px, (min-width: 1280px) calc(37.33vw + 50px), (min-width: 1040px) calc(41.82vw - 82px), (min-width: 740px) 640px, calc(92.38vw - 25px)" width="640" height="481">
+                                            <img src="img/norma-administrator-is-working-640_x_480.jpg" loading="lazy" alt="Administrator is recording daily timesheets in Norma" width="640" height="481" srcset="img/norma-administrator-is-working-320_x_240.jpg 320w, img/norma-administrator-is-working-640_x_480.jpg 640w, img/norma-administrator-is-working-1280_x_960.jpg 1280w, img/norma-administrator-is-working-1920_x_1440.jpg 1920w, img/norma-administrator-is-working-2560_x_1920.jpg 2560w" sizes="(min-width: 1600px) 640px, (min-width: 1280px) calc(37.33vw + 50px), (min-width: 1040px) calc(41.82vw - 82px), (min-width: 740px) 640px, calc(92.38vw - 25px)" class="rounded-lg shadow" data-pg-ia-scene='{"dbg":"true","s":"auto","s_t":"start","s_s":"start","l":[{"a":"fadeIn","p":"time","sc_dir":"up_down","rep":"true"}]}'>
+                                        </picture>
+                                        <figcaption class="leading-snug text-center text-xs mt-6 mx-auto" data-pg-class-style="figcaption">Administrators record the daily timesheets daily basis.</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="gap-10 grid lg:grid-cols-12 lg:gap-0 lg:mt-0 mt-16" data-pg-class-style="container">
+                                <div class="lg:col-start-1 lg:row-end-2 lg:row-start-1 md:self-center lg:col-end-7 xl:col-end-6 2xl:col-end-5 relative z-10" data-pg-class-style="text_left">
+                                    <h3 data-pg-class-style="heading_3" class="font-semibold leading-10 mb-6 text-3xl text-gray-900">Usability testing</h3>
+                                    <p data-pg-class-style="highlight.norma_data_input" class="leading-8 text-lg font-medium max-w-prose mb-6 text-transparent bg-clip-text bg-gradient-to-br from-norma-yellow to-norma-pink">My colleague and I conducted the usability testings in 4 locations with 7 core users. During usability testing, our aim was to</p>
+                                    <ul data-pg-class-style="unordered_list" class="flex flex-col gap-4 mb-5">
+                                        <li>to get a more accurate picture of the administrators;</li>
+                                        <li>to gather information about their workflows,&nbsp; partly related to the Norma;</li>
+                                        <li>observe how administrators were using the software in their working environment;</li>
+                                        <li>see the pain points that create barriers to efficient use;</li>
+                                        <li>use the results to provide solutions to the problems encountered.</li>
+                                    </ul>
+                                </div>
+                                <div class="lg:col-end-13 lg:col-start-8 lg:row-end-2 lg:row-start-1 md:self-center xl:col-start-7 relative z-10" data-pg-class-style="visual_right">
+                                    <div class="flex flex-col gap-8">
+                                        <div class="p-6 rounded-lg shadow lg:p-9 bg-gray-100" data-pg-class-style="card.light" data-pg-ia-scene='{"dbg":"true","s":"auto","s_t":"start","l":[{"a":"slideInRight","p":"time"}],"on":"desktop"}'>
+                                            <h4 class="font-semibold leading-normal mb-6 text-gray-900 text-xl" data-pg-class-style="heading_4">Tools</h4>
+                                            <ul data-pg-class-style="unordered_list" class="flex flex-col gap-4 mb-5">
+                                                <li>Pre-prepared data sheet, notebook</li>
+                                                <li>GoPro camera (pointed at the monitor, but also showing the hands of the user)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="p-6 rounded-lg shadow lg:p-9 bg-gray-100" data-pg-class-style="card.light" data-pg-ia-scene='{"l":[{"a":"slideInRight","p":"time"}],"on":"desktop"}'>
+                                            <h4 class="font-semibold leading-normal mb-6 text-gray-900 text-xl" data-pg-class-style="heading_4">Tasks</h4>
+                                            <ul data-pg-class-style="unordered_list" class="flex flex-col gap-4 mb-5">
+                                                <li>General questions to know the user, the environment, and the user&apos;s tools.</li>
+                                                <li>We asked our test subjects to perform predefined tasks.</li>
+                                                <li>They were then asked to use Norma according to their general workflow.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-12 items-center sm:gap-20 md:gap-24 xl:gap-28 2xl:gap-40">
+                        <div class="bg-white w-full z-10 md:overflow-hidden">
+                            <div class="max-w-screen-xl mx-6 sm:mx-8 md:mx-10 lg:mx-24 xl:mx-28 2xl:mx-auto">
+                                <p aria-hidden="true" data-pg-class-style="figcaption" class="leading-snug text-center text-xs mt-6 mx-auto hidden md:block md:pb-20" data-pg-class-style-inline="hidden md:block md:pb-20">We gathered information about the workflows related to the Norma</p>
+                                <h3 data-pg-class-style="heading_3" class="font-semibold leading-10 mb-6 text-3xl text-gray-900">Observations</h3>
+                                <h4 data-pg-class-style="heading_4" class="font-semibold leading-normal mb-6 text-gray-900 text-xl">Workflow of the administrators</h4>
+                                <p>According to our usability testings a typical day for an administrator starts with creating digital daily timesheets in three steps:</p>
+                            </div>
+                            <div role="list" class="flex flex-col gap-6 pt-12 px-6 sm:px-8 md:bg-white md:flex-row md:pt-0 md:px-10 md:top-12 lg:px-24 xl:px-28 2xl:px-[calc((100vw-1280px)/2)]" id="container">
+                                <div role="listitem" class="video bg-gray-100 md:min-w-[580px] pb-7 pt-6 px-6 rounded-lg shadow sm:p-9" data-pgc-define="myblocks-card-workflow-step" data-pgc-define-name="Card - Workflow step">
+                                    <h4><div aria-label="0" class="bg-clip-text font-bold from-norma-yellow leading-tight text-7xl text-transparent to-norma-pink bg-gradient-to-b" data-pg-class-style="number_steps" data-pgc-edit="number">0</div><div data-pg-class-style="heading_4" class="font-semibold leading-normal mb-6 text-gray-900 text-xl" data-pgc-edit="title">Collecting physical daily timesheets</div></h4>
+                                    <div data-pgc-edit="content">
+                                        <ol data-pg-class-style="unordered_list" class="flex flex-col gap-4 mb-5">
+                                            <li>Employees fill their daily timesheets by themselves.</li>
+                                            <li>Supervisors collect the daily timesheets at the end of the work shift.</li>
+                                            <li>The next day administrators record the timesheets.</li>
+                                        </ol>
+                                    </div>
+                                    <div data-pgc-edit="media">
+                                        <picture>
+                                            <source type="image/avif" srcset="<img/daily-timesheet-320_x_179.avif 320w, img/daily-timesheet-640_x_360.avif 640w, img/daily-timesheet-1280_x_720.avif 1280w, img/daily-timesheet-1920_x_1080.avif 1920w" width="1280" height="720" sizes="(min-width: 780px) 508px, (min-width: 640px) calc(100vw - 136px), calc(100vw - 96px)">
+                                            <source type="image/webp" srcset="<img/daily-timesheet-320_x_179.webp 320w, img/daily-timesheet-640_x_360.webp 640w, img/daily-timesheet-1280_x_720.webp 1280w, img/daily-timesheet-1920_x_1080.webp 1920w" width="1280" height="720" sizes="(min-width: 780px) 508px, (min-width: 640px) calc(100vw - 136px), calc(100vw - 96px)">
+                                            <img src="img/daily-timesheet.jpg" width="1280" height="720" alt="Daily timesheet" srcset="img/daily-timesheet-320_x_179.jpg 320w, img/daily-timesheet-640_x_360.jpg 640w, img/daily-timesheet-1280_x_720.jpg 1280w, img/daily-timesheet-1920_x_1080.jpg 1920w" loading="lazy" sizes="(min-width: 780px) 508px, (min-width: 640px) calc(100vw - 136px), calc(100vw - 96px)" class="drop-shadow rounded-lg mt-9">
+                                        </picture>
+                                    </div>
+                                </div>
+                                <div role="listitem" class="video bg-gray-100 md:min-w-[580px] pb-7 pt-6 px-6 rounded-lg shadow sm:p-9" data-pgc="myblocks-card-workflow-step">
+                                    <h4><div aria-label="0" class="bg-clip-text font-bold from-norma-yellow leading-tight text-7xl text-transparent to-norma-pink bg-gradient-to-b" data-pg-class-style="number_steps" data-pgc-field="number">1</div><div data-pg-class-style="heading_4" class="font-semibold leading-normal mb-6 text-gray-900 text-xl" data-pgc-field="title">Choosing employees in Norma</div></h4>
+                                    <div data-pgc-field="content">
+                                        <p>The administrators can manage more than one site, so in addition to the date, they must also select the location of the work to generate the list of relevant employees.</p>
+                                    </div>
+                                    <div data-pgc-field="media">
+                                        <video width="640" height="360" src="video/administrator-workflow-step-1.webm" loop="true" muted="true" class="drop-shadow rounded-lg mt-9">
+                                            <source src="video/administrator-workflow-step-1.webm" type="image/webp">
+                                            <source src="video/administrator-workflow-step-1.mp4" type="video/mp4">
+                                            Your browser doesn't support HTML5 video tag.
+                                        </video>
+                                    </div>
+                                </div>
+                                <div role="listitem" class="video bg-gray-100 md:min-w-[580px] pb-7 pt-6 px-6 rounded-lg shadow sm:p-9" data-pgc="myblocks-card-workflow-step">
+                                    <h4><div aria-label="0" class="bg-clip-text font-bold from-norma-yellow leading-tight text-7xl text-transparent to-norma-pink bg-gradient-to-b" data-pg-class-style="number_steps" data-pgc-field="number">2</div><div data-pg-class-style="heading_4" class="font-semibold leading-normal mb-6 text-gray-900 text-xl" data-pgc-field="title">Creating daily timesheets for the selected date</div></h4>
+                                    <div data-pgc-field="content">
+                                        <p>For each employee, the administrator selects the type of presence (e.g., present, queued, unpaid leave, sick leave, etc.) for the previously chosen day. Once selected, the administrator clicks the button to create all daily timesheets together.</p>
+                                    </div>
+                                    <div data-pgc-field="media">
+                                        <video width="640" height="360" src="video/administrator-workflow-step-2.webm" loop="true" muted="true" class="drop-shadow rounded-lg mt-9">
+                                            <source src="video/administrator-workflow-step-2.webm" type="image/webp">
+                                            <source src="video/administrator-workflow-step-2.mp4" type="video/mp4">
+                                            Your browser doesn't support HTML5 video tag.
+                                        </video>
+                                    </div>
+                                </div>
+                                <div role="listitem" class="video bg-gray-100 md:min-w-[580px] pb-7 pt-6 px-6 rounded-lg shadow sm:p-9" data-pgc="myblocks-card-workflow-step">
+                                    <h4><div aria-label="0" class="bg-clip-text font-bold from-norma-yellow leading-tight text-7xl text-transparent to-norma-pink bg-gradient-to-b" data-pg-class-style="number_steps" data-pgc-field="number">3</div><div data-pg-class-style="heading_4" class="font-semibold leading-normal mb-6 text-gray-900 text-xl" data-pgc-field="title">Filling daily timesheets</div></h4>
+                                    <div data-pgc-field="content">
+                                        <p>Once created, only daily timesheets with present status show up for completion. The administrator transfers the data from the physical daily timesheets to the digital ones.</p>
+                                    </div>
+                                    <div data-pgc-field="media">
+                                        <video width="640" height="360" src="video/administrator-workflow-step-3.webm" loop="true" muted="true" class="drop-shadow rounded-lg mt-9">
+                                            <source src="video/administrator-workflow-step-3.webp" type="image/webp">
+                                            <source src="video/administrator-workflow-step-3.mp4" type="video/mp4">
+                                            Your browser doesn't support HTML5 video tag.
+                                        </video>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <figure class="grid md:grid-rows-[calc(100vh)] md:sticky md:top-0 order-first">
+                            <picture>
+                                <source type="image/avif" srcset="img/norma-administrator-is-working-in-her-enviroment-300_x_224.avif 300w, img/norma-administrator-is-working-in-her-enviroment-880_x_660.avif 880w, img/norma-administrator-is-working-in-her-enviroment-1210_x_907.avif 1210w, img/norma-administrator-is-working-in-her-enviroment-1470_x_1102.avif 1470w, img/norma-administrator-is-working-in-her-enviroment-1680_x_1260.avif 1680w, img/norma-administrator-is-working-in-her-enviroment-1870_x_1402.avif 1870w, img/norma-administrator-is-working-in-her-enviroment-2048_x_1536.avif 2048w" sizes="100vw" width="1920" height="1440">
+                                <source type="image/webp" srcset="img/norma-administrator-is-working-in-her-enviroment-300_x_224.webp 300w, img/norma-administrator-is-working-in-her-enviroment-880_x_660.webp 880w, img/norma-administrator-is-working-in-her-enviroment-1210_x_907.webp 1210w, img/norma-administrator-is-working-in-her-enviroment-1470_x_1102.webp 1470w, img/norma-administrator-is-working-in-her-enviroment-1680_x_1260.webp 1680w, img/norma-administrator-is-working-in-her-enviroment-1870_x_1402.webp 1870w, img/norma-administrator-is-working-in-her-enviroment-2048_x_1536.webp 2048w" sizes="100vw" width="1920" height="1440">
+                                <img src="img/norma-administrator-is-working-in-her-enviroment-2048_x_1536.jpg" class="object-cover w-screen md:h-screen lg:h-full" width="1920" height="1440" loading="lazy" sizes="100vw" alt="Administrator is working in her working enviroment" srcset="img/norma-administrator-is-working-in-her-enviroment-300_x_224.jpg 300w, img/norma-administrator-is-working-in-her-enviroment-880_x_660.jpg 880w, img/norma-administrator-is-working-in-her-enviroment-1210_x_907.jpg 1210w, img/norma-administrator-is-working-in-her-enviroment-1470_x_1102.jpg 1470w, img/norma-administrator-is-working-in-her-enviroment-1680_x_1260.jpg 1680w, img/norma-administrator-is-working-in-her-enviroment-1870_x_1402.jpg 1870w, img/norma-administrator-is-working-in-her-enviroment-2048_x_1536.jpg 2048w">
+                            </picture>
+                            <figcaption data-pg-class-style="figcaption" class="leading-snug text-center text-xs mt-6 mx-auto md:absolute md:-left-full" data-pg-class-style-inline="md:absolute md:-left-full">We gathered information about the workflows related to the Norma</figcaption>
+                        </figure>
+                    </div>
+                    <div data-pg-class-style="wrapper" class="flex flex-col max-w-screen-xl mx-6 py-16 sm:mx-8 sm:py-20 md:mx-10 md:py-20 lg:mx-24 lg:py-24 xl:mx-28 xl:py-28 2xl:mx-auto 2xl:py-40 lg:pt-0 xl:pt-0 2xl:pt-0" data-pg-class-style-inline="lg:pt-0 xl:pt-0 2xl:pt-0">
+                        <div class="max-w-prose mx-auto">
+                            <h3 data-pg-class-style="heading_3" class="font-semibold leading-10 mb-6 text-3xl text-gray-900">The problem statement</h3>
+                            <p>During the evaluation of the testing, I noticed that the main problem for the administrators was that they could not create more daily timesheets for one employee for different dates at once.&nbsp;Such an occasion could be when an employee goes on leave or sick leave during a foreseeable period or generating daily timesheets for employees is a weekly task.</p>
+                            <p></p>
+                            <p data-pg-class-style="highlight.norma_data_input" class="leading-8 text-lg font-medium max-w-prose mb-6 text-transparent bg-clip-text bg-gradient-to-br from-norma-yellow to-norma-pink">At the time of testing, the administrator was only able to create multiple timesheets for an employee with a lot of repetitive operations. For a larger organisation, this imposes tremendous extra work on the administrators and a wage cost on the employer.</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="bg-gray-100">
+                    <div data-pg-class-style="wrapper" class="flex flex-col max-w-screen-xl mx-6 py-16 sm:mx-8 sm:py-20 md:mx-10 md:py-20 lg:mx-24 lg:py-24 xl:mx-28 xl:py-28 2xl:mx-auto 2xl:py-40">
+                        <h2 class="mb-12 order-1 order-none xl:mb-20" data-pgc="myblocks-block-heading-2" data-pgc-field="order"><div class="font-bold text-sm tracking-wider leading-none mb-2 lg:text-base text-gray-900" data-pg-class-style="heading_2_number" data-pgc-field="number">03</div><div class="border-b font-bold leading-none text-4xl uppercase pb-8 lg:text-5xl border-gray-900 text-gray-900" data-pg-class-style="heading_2" data-pgc-field="title">Solution</div><!--[Pinegrow components saved data - this data is no longer used in the component. We're saving it just in case. Clear this with Components -> Clear saved unused edits]<div class="border-b font-bold leading-none text-4xl uppercase pb-8 lg:text-5xl border-gray-900 text-gray-900" data-pg-class-style="heading_2" data-pgc-field="title">Solution</div><div class="border-b font-bold leading-none text-4xl uppercase pb-8 lg:text-5xl border-gray-900 text-gray-900" data-pg-class-style="heading_2" data-pgc-field="title">Solution</div>--></h2>
+                        <div data-pg-class-style="subwrapper" class="flex flex-col gap-12 sm:gap-16 md:gap-20 lg:gap-24 xl:gap-28 2xl:gap-40">
+                            <div class="gap-10 grid lg:grid-cols-12 lg:gap-0 lg:mt-0 mt-16" data-pg-class-style="container">
+                                <div data-pg-class-style="text_left" class="lg:col-start-1 lg:row-end-2 lg:row-start-1 md:self-center lg:col-end-7 xl:col-end-6 2xl:col-end-5 relative z-10">
+                                    <h3 data-pg-class-style="heading_3" class="font-semibold leading-10 mb-6 text-3xl text-gray-900">How might we</h3>
+                                    <p>Design a solution that helps administrators to create multiple daily timesheets for an employee at the same time.</p>
+                                </div>
+                                <div data-pg-class-style="visual_right" class="lg:col-end-13 lg:col-start-8 lg:row-end-2 lg:row-start-1 md:self-center xl:col-start-7 relative z-10">
+                                    <div data-pg-class-style="card" class="p-6 rounded-lg shadow lg:p-9 bg-gray-200" data-pg-class-style-inline="bg-gray-200">
+                                        <h4 data-pg-class-style="heading_4" class="font-semibold leading-normal mb-6 text-gray-900 text-xl">Business Goals</h4>
+                                        <ul data-pg-class-style="unordered_list" class="flex flex-col gap-4 mb-5">
+                                            <li>Seamlessly integrate the new workflow into the already-built one</li>
+                                            <li>The new modal has to be reusable in the planned leave planner feature</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gap-10 grid lg:grid-cols-12 lg:gap-0 lg:mt-0 mt-16" data-pg-class-style="container">
+                                <div data-pg-class-style="text_right" class="lg:col-end-13 lg:row-end-2 lg:row-start-1 2xl:self-center self-center lg:col-start-7 xl:col-start-8 2xl:col-start-9">
+                                    <h3 data-pg-class-style="heading_3" class="font-semibold leading-10 mb-6 text-3xl text-gray-900">Sketches</h3>
+                                    <p>Sketches helped me visualize design decisions and the overall optimal workflow of the administrators.</p>
+                                </div>
+                                <div data-pg-class-style="visual_left" class="lg:col-start-1 lg:col-end-6 self-center xl:col-end-7">
+                                    <picture>
+                                        <source type="image/avif" srcset="img/norma-sketches-320_x_239.avif 320w, img/norma-sketches-640_x_479.avif 640w, img/norma-sketches-1280_x_958.avif 1280w, img/norma-sketches-1920_x_1438.avif 1920w, img/norma-sketches-2560_x_1917.avif 2560w" sizes="(min-width: 1600px) 640px, (min-width: 1280px) calc(37.33vw + 50px), (min-width: 1040px) calc(41.82vw - 82px), calc(95.56vw - 35px)" width="640" height="481">
+                                        <source type="image/webp" srcset="img/norma-sketches-320_x_239.webp 320w, img/norma-sketches-640_x_479.webp 640w, img/norma-sketches-1280_x_958.webp 1280w, img/norma-sketches-1920_x_1438.webp 1920w, img/norma-sketches-2560_x_1917.webp 2560w" sizes="(min-width: 1600px) 640px, (min-width: 1280px) calc(37.33vw + 50px), (min-width: 1040px) calc(41.82vw - 82px), calc(95.56vw - 35px)" width="640" height="481">
+                                        <img src="img/norma-sketches-640_x_479.jpg" class="rounded-lg shadow w-full" loading="lazy" alt="Sketches in a notebook" width="640" height="479" srcset="img/norma-sketches-320_x_239.jpg 320w, img/norma-sketches-640_x_479.jpg 640w, img/norma-sketches-1280_x_958.jpg 1280w, img/norma-sketches-1920_x_1438.jpg 1920w, img/norma-sketches-2560_x_1917.jpg 2560w" sizes="(min-width: 1600px) 640px, (min-width: 1280px) calc(37.33vw + 50px), (min-width: 1040px) calc(41.82vw - 82px), calc(95.56vw - 35px)">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="border-b border-gray-300 pb-6">
+                                    <h3 data-pg-class-style="heading_3" class="font-semibold leading-10 mb-6 text-3xl text-gray-900">Design &amp; flow</h3>
+                                    <p>After several iterations and workshops, I designed the new interfaces and user flows to meet the new demands.</p>
+                                </div>
+                                <div class="gap-10 grid lg:grid-cols-12 lg:gap-0 mt-12 lg:mt-16" data-pg-class-style="container" data-pg-class-style-inline="mt-12 lg:mt-16">
+                                    <div class="lg:col-end-7 lg:col-start-1 xl:col-end-5" data-pg-class-style="text_left_design_flow">
+                                        <h4 data-pg-class-style="heading_4" class="font-semibold leading-normal mb-6 text-gray-900 text-xl">Table view</h4>
+                                        <p>We kept the original table view of &ldquo;Daily timesheets&rdquo; for our users but</p>
+                                        <ul data-pg-class-style="unordered_list" class="flex flex-col gap-4 mb-5">
+                                            <li>added icons on the screen to switch to the new calendar view,<br>
+                                                <svg width="40" height="17" viewBox="0 0 40 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="mt-2">
+                                                    <g clip-path="url(#clip0_3129_4785)">
+                                                        <path d="M39 2.66016H37V0.660156H34V2.66016H30V0.660156H27V2.66016H25C24.7348 2.66016 24.4804 2.76551 24.2929 2.95305C24.1054 3.14059 24 3.39494 24 3.66016V15.6602C24 15.9254 24.1054 16.1797 24.2929 16.3673C24.4804 16.5548 24.7348 16.6602 25 16.6602H39C39.2652 16.6602 39.5196 16.5548 39.7071 16.3673C39.8946 16.1797 40 15.9254 40 15.6602V3.66016C40 3.39494 39.8946 3.14059 39.7071 2.95305C39.5196 2.76551 39.2652 2.66016 39 2.66016ZM38 14.6602H26V5.66016H38V14.6602Z" fill="#B6C9D3"/>
+                                                        <path d="M30 7.66016H28V9.66016H30V7.66016Z" fill="#B6C9D3"/>
+                                                        <path d="M33 7.66016H31V9.66016H33V7.66016Z" fill="#B6C9D3"/>
+                                                        <path d="M30 10.6602H28V12.6602H30V10.6602Z" fill="#B6C9D3"/>
+                                                        <path d="M33 10.6602H31V12.6602H33V10.6602Z" fill="#B6C9D3"/>
+                                                        <path d="M36 7.66016H34V9.66016H36V7.66016Z" fill="#B6C9D3"/>
+                                                        <path d="M36 10.6602H34V12.6602H36V10.6602Z" fill="#B6C9D3"/>
+                                                        <path d="M14.9997 2.65991H0.99975C0.866336 2.65189 0.732739 2.67226 0.607779 2.71968C0.482819 2.76709 0.369339 2.84048 0.274831 2.93499C0.180323 3.0295 0.106938 3.14298 0.0595197 3.26794C0.0121017 3.3929 -0.00826999 3.52649 -0.000250349 3.65991V15.6599C-0.00826999 15.7933 0.0121017 15.9269 0.0595197 16.0519C0.106938 16.1768 0.180323 16.2903 0.274831 16.3848C0.369339 16.4793 0.482819 16.5527 0.607779 16.6001C0.732739 16.6476 0.866336 16.6679 0.99975 16.6599H14.9997C15.1332 16.6679 15.2668 16.6476 15.3917 16.6001C15.5167 16.5527 15.6302 16.4793 15.7247 16.3848C15.8192 16.2903 15.8926 16.1768 15.94 16.0519C15.9874 15.9269 16.0078 15.7933 15.9998 15.6599V3.65991C16.0078 3.52649 15.9874 3.3929 15.94 3.26794C15.8926 3.14298 15.8192 3.0295 15.7247 2.93499C15.6302 2.84048 15.5167 2.76709 15.3917 2.71968C15.2668 2.67226 15.1332 2.65189 14.9997 2.65991ZM1.99975 8.65991H9.99975V10.6599H1.99975V8.65991ZM9.99975 4.65991V6.65991H1.99975V4.65991H9.99975ZM1.99975 12.6599H9.99975V14.6599H1.99975V12.6599ZM13.9997 14.6599H11.9997V4.65991H13.9997V14.6599Z" fill="#1699B5"/>
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_3129_4785">
+                                                            <rect width="40" height="16" fill="white" transform="translate(0 0.660156)"/>
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg>
+                                            </li>
+                                            <li>changed the functionality of the &ldquo;New daily Timesheets&rdquo; button. It also takes now to the new Calendar view instead of the old (location and date input) screen.<br>
+                                                <svg width="130" height="33" viewBox="0 0 130 33" fill="none" xmlns="http://www.w3.org/2000/svg" class="mt-2">
+                                                    <g clip-path="url(#clip0_3129_4800)">
+                                                        <path d="M126 0.660156H4C1.79086 0.660156 0 2.45102 0 4.66016V28.6602C0 30.8693 1.79086 32.6602 4 32.6602H126C128.209 32.6602 130 30.8693 130 28.6602V4.66016C130 2.45102 128.209 0.660156 126 0.660156Z" fill="#38AC6F"/>
+                                                        <path d="M126 1.16016H4C2.067 1.16016 0.5 2.72716 0.5 4.66016V28.6602C0.5 30.5932 2.067 32.1602 4 32.1602H126C127.933 32.1602 129.5 30.5932 129.5 28.6602V4.66016C129.5 2.72716 127.933 1.16016 126 1.16016Z" stroke="black" stroke-opacity="0.05"/>
+                                                        <path d="M23.2498 15.9095H18.7498V11.4095C18.7558 11.3094 18.7405 11.2092 18.7049 11.1155C18.6693 11.0218 18.6143 10.9367 18.5434 10.8659C18.4725 10.795 18.3874 10.74 18.2937 10.7044C18.2 10.6688 18.0998 10.6535 17.9998 10.6595C17.8997 10.6535 17.7996 10.6688 17.7059 10.7044C17.6122 10.74 17.5271 10.795 17.4562 10.8659C17.3853 10.9367 17.3303 11.0218 17.2947 11.1155C17.2591 11.2092 17.2438 11.3094 17.2498 11.4095V15.9095H12.7498C12.6497 15.9035 12.5496 15.9188 12.4559 15.9544C12.3622 15.99 12.2771 16.045 12.2062 16.1159C12.1353 16.1867 12.0803 16.2718 12.0447 16.3655C12.0091 16.4592 11.9938 16.5594 11.9998 16.6595C11.9938 16.7595 12.0091 16.8597 12.0447 16.9534C12.0803 17.0471 12.1353 17.1322 12.2062 17.2031C12.2771 17.2739 12.3622 17.329 12.4559 17.3646C12.5496 17.4001 12.6497 17.4154 12.7498 17.4095H17.2498V21.9095C17.2438 22.0095 17.2591 22.1097 17.2947 22.2034C17.3303 22.2971 17.3853 22.3822 17.4562 22.4531C17.5271 22.5239 17.6122 22.579 17.7059 22.6146C17.7996 22.6501 17.8997 22.6654 17.9998 22.6595C18.0998 22.6654 18.2 22.6501 18.2937 22.6146C18.3874 22.579 18.4725 22.5239 18.5434 22.4531C18.6143 22.3822 18.6693 22.2971 18.7049 22.2034C18.7405 22.1097 18.7558 22.0095 18.7498 21.9095V17.4095H23.2498C23.3498 17.4154 23.45 17.4001 23.5437 17.3646C23.6374 17.329 23.7225 17.2739 23.7934 17.2031C23.8643 17.1322 23.9193 17.0471 23.9549 16.9534C23.9905 16.8597 24.0058 16.7595 23.9998 16.6595C24.0058 16.5594 23.9905 16.4592 23.9549 16.3655C23.9193 16.2718 23.8643 16.1867 23.7934 16.1159C23.7225 16.045 23.6374 15.99 23.5437 15.9544C23.45 15.9188 23.3498 15.9035 23.2498 15.9095Z" fill="white"/>
+                                                        <path d="M39.3494 12.2056H40.4943V18.4656C40.4943 19.1119 40.342 19.6889 40.0373 20.1967C39.7357 20.7015 39.3094 21.1 38.7585 21.3924C38.2076 21.6817 37.5613 21.8263 36.8196 21.8263C36.0779 21.8263 35.4316 21.6817 34.8807 21.3924C34.3298 21.1 33.902 20.7015 33.5973 20.1967C33.2957 19.6889 33.1449 19.1119 33.1449 18.4656V12.2056H34.2898V18.3732C34.2898 18.8349 34.3913 19.2457 34.5945 19.6058C34.7976 19.9628 35.0869 20.2444 35.4624 20.4506C35.8409 20.6538 36.2933 20.7553 36.8196 20.7553C37.3459 20.7553 37.7983 20.6538 38.1768 20.4506C38.5554 20.2444 38.8447 19.9628 39.0447 19.6058C39.2479 19.2457 39.3494 18.8349 39.3494 18.3732V12.2056ZM36.321 11.2454L37.4474 9.10334H38.7216L37.2812 11.2454H36.321ZM42.6329 14.5692H43.7224V22.1772C43.7224 22.6142 43.647 22.9928 43.4962 23.3129C43.3485 23.6329 43.1238 23.8807 42.8222 24.0561C42.5236 24.2315 42.1466 24.3192 41.6911 24.3192C41.6542 24.3192 41.6173 24.3192 41.5803 24.3192C41.5434 24.3192 41.5065 24.3192 41.4695 24.3192V23.3036C41.5065 23.3036 41.5403 23.3036 41.5711 23.3036C41.6019 23.3036 41.6357 23.3036 41.6727 23.3036C42.0051 23.3036 42.2482 23.2051 42.4021 23.0082C42.556 22.8143 42.6329 22.5373 42.6329 22.1772V14.5692ZM43.1684 13.3874C42.9561 13.3874 42.7729 13.3151 42.6191 13.1705C42.4682 13.0258 42.3928 12.8519 42.3928 12.6488C42.3928 12.4457 42.4682 12.2718 42.6191 12.1271C42.7729 11.9825 42.9561 11.9102 43.1684 11.9102C43.3808 11.9102 43.5624 11.9825 43.7132 12.1271C43.867 12.2718 43.944 12.4457 43.944 12.6488C43.944 12.8519 43.867 13.0258 43.7132 13.1705C43.5624 13.3151 43.3808 13.3874 43.1684 13.3874ZM49.3741 21.6602V14.5692H50.4267V15.6772H50.519C50.6667 15.2987 50.9052 15.0047 51.2346 14.7955C51.5639 14.5831 51.9593 14.4769 52.421 14.4769C52.8888 14.4769 53.2781 14.5831 53.589 14.7955C53.9029 15.0047 54.1475 15.2987 54.323 15.6772H54.3968C54.5784 15.311 54.8508 15.0201 55.214 14.8047C55.5771 14.5862 56.0126 14.4769 56.5204 14.4769C57.1544 14.4769 57.673 14.6754 58.0762 15.0724C58.4793 15.4664 58.6809 16.0804 58.6809 16.9144V21.6602H57.5914V16.9144C57.5914 16.3912 57.4483 16.0173 57.1621 15.7926C56.8759 15.5679 56.5389 15.4556 56.1511 15.4556C55.6525 15.4556 55.2663 15.6064 54.9924 15.908C54.7185 16.2066 54.5815 16.5851 54.5815 17.0437V21.6602H53.4735V16.8036C53.4735 16.4004 53.3427 16.0758 53.0811 15.8295C52.8195 15.5803 52.4825 15.4556 52.0701 15.4556C51.787 15.4556 51.5223 15.531 51.2761 15.6818C51.033 15.8326 50.836 16.0419 50.6852 16.3097C50.5375 16.5743 50.4636 16.8806 50.4636 17.2283V21.6602H49.3741ZM65.1417 18.761V14.5692H66.2312V21.6602H65.1417V20.4599H65.0678C64.9016 20.82 64.6431 21.1262 64.2923 21.3786C63.9414 21.6278 63.4982 21.7525 62.9627 21.7525C62.5195 21.7525 62.1256 21.6555 61.7809 21.4616C61.4362 21.2647 61.1654 20.9692 60.9684 20.5753C60.7714 20.1783 60.6729 19.6781 60.6729 19.0749V14.5692H61.7624V19.0011C61.7624 19.5181 61.9071 19.9305 62.1964 20.2383C62.4888 20.546 62.8612 20.6999 63.3136 20.6999C63.5844 20.6999 63.8598 20.6307 64.1399 20.4922C64.4231 20.3537 64.66 20.1413 64.8509 19.8551C65.0447 19.5689 65.1417 19.2042 65.1417 18.761ZM69.3161 17.3945V21.6602H68.2267V14.5692H69.2792V15.6772H69.3715C69.5377 15.3171 69.7901 15.0278 70.1286 14.8093C70.4672 14.5877 70.9042 14.4769 71.4397 14.4769C71.9198 14.4769 72.3399 14.5754 72.7 14.7724C73.0601 14.9663 73.3402 15.2617 73.5402 15.6587C73.7403 16.0527 73.8403 16.5513 73.8403 17.1545V21.6602H72.7508V17.2283C72.7508 16.6713 72.6061 16.2373 72.3169 15.9265C72.0276 15.6126 71.6305 15.4556 71.1258 15.4556C70.778 15.4556 70.4672 15.531 70.1933 15.6818C69.9224 15.8326 69.7085 16.0527 69.5516 16.342C69.3946 16.6313 69.3161 16.9821 69.3161 17.3945ZM76.8468 19.0749L76.8283 17.7269H77.0499L80.1522 14.5692H81.5002L78.1948 17.9116H78.1025L76.8468 19.0749ZM75.8311 21.6602V12.2056H76.9206V21.6602H75.8311ZM80.3368 21.6602L77.5669 18.1516L78.3425 17.3945L81.7218 21.6602H80.3368ZM84.9891 21.8263C84.5397 21.8263 84.132 21.7417 83.7657 21.5724C83.3995 21.4001 83.1086 21.1523 82.8932 20.8292C82.6778 20.503 82.57 20.109 82.57 19.6474C82.57 19.2411 82.6501 18.9118 82.8101 18.6594C82.9701 18.404 83.184 18.204 83.4518 18.0593C83.7195 17.9147 84.015 17.8069 84.3382 17.7362C84.6644 17.6623 84.9922 17.6038 85.3215 17.5607C85.7523 17.5053 86.1017 17.4638 86.3694 17.4361C86.6402 17.4053 86.8372 17.3545 86.9603 17.2837C87.0865 17.2129 87.1496 17.0898 87.1496 16.9144V16.8775C87.1496 16.422 87.0249 16.0681 86.7757 15.8157C86.5294 15.5633 86.1555 15.4371 85.6539 15.4371C85.1337 15.4371 84.7259 15.551 84.4305 15.7788C84.135 16.0065 83.9273 16.2496 83.8073 16.5082L82.7732 16.1388C82.9578 15.708 83.204 15.3725 83.5118 15.1325C83.8227 14.8893 84.1612 14.7201 84.5274 14.6246C84.8968 14.5262 85.2599 14.4769 85.6169 14.4769C85.8447 14.4769 86.1063 14.5046 86.4017 14.56C86.7003 14.6123 86.988 14.7216 87.265 14.8878C87.5451 15.054 87.7774 15.3048 87.9621 15.6403C88.1468 15.9757 88.2391 16.4251 88.2391 16.9883V21.6602H87.1496V20.6999H87.0942C87.0203 20.8538 86.8972 21.0185 86.7249 21.1939C86.5525 21.3693 86.3232 21.5186 86.037 21.6417C85.7508 21.7648 85.4015 21.8263 84.9891 21.8263ZM85.1553 20.8477C85.5861 20.8477 85.9493 20.763 86.2448 20.5938C86.5433 20.4245 86.768 20.206 86.9188 19.9382C87.0727 19.6705 87.1496 19.3888 87.1496 19.0934V18.0962C87.1034 18.1516 87.0019 18.2024 86.8449 18.2486C86.691 18.2917 86.5125 18.3301 86.3094 18.364C86.1093 18.3948 85.9139 18.4225 85.7231 18.4471C85.5354 18.4686 85.383 18.4871 85.2661 18.5025C84.9829 18.5394 84.7182 18.5994 84.472 18.6825C84.2289 18.7625 84.0319 18.8841 83.8811 19.0472C83.7334 19.2073 83.6595 19.4258 83.6595 19.7028C83.6595 20.0813 83.7996 20.3675 84.0796 20.5614C84.3628 20.7522 84.7213 20.8477 85.1553 20.8477ZM91.3171 12.2056V21.6602H90.2276V12.2056H91.3171ZM95.3992 21.8263C94.9499 21.8263 94.5421 21.7417 94.1759 21.5724C93.8096 21.4001 93.5188 21.1523 93.3034 20.8292C93.0879 20.503 92.9802 20.109 92.9802 19.6474C92.9802 19.2411 93.0602 18.9118 93.2203 18.6594C93.3803 18.404 93.5942 18.204 93.8619 18.0593C94.1297 17.9147 94.4252 17.8069 94.7483 17.7362C95.0745 17.6623 95.4023 17.6038 95.7316 17.5607C96.1625 17.5053 96.5118 17.4638 96.7796 17.4361C97.0504 17.4053 97.2474 17.3545 97.3705 17.2837C97.4967 17.2129 97.5597 17.0898 97.5597 16.9144V16.8775C97.5597 16.422 97.4351 16.0681 97.1858 15.8157C96.9396 15.5633 96.5657 15.4371 96.064 15.4371C95.5439 15.4371 95.1361 15.551 94.8406 15.7788C94.5452 16.0065 94.3374 16.2496 94.2174 16.5082L93.1833 16.1388C93.368 15.708 93.6142 15.3725 93.922 15.1325C94.2328 14.8893 94.5713 14.7201 94.9376 14.6246C95.3069 14.5262 95.6701 14.4769 96.0271 14.4769C96.2548 14.4769 96.5164 14.5046 96.8119 14.56C97.1104 14.6123 97.3982 14.7216 97.6752 14.8878C97.9552 15.054 98.1876 15.3048 98.3722 15.6403C98.5569 15.9757 98.6492 16.4251 98.6492 16.9883V21.6602H97.5597V20.6999H97.5044C97.4305 20.8538 97.3074 21.0185 97.135 21.1939C96.9627 21.3693 96.7334 21.5186 96.4472 21.6417C96.161 21.7648 95.8116 21.8263 95.3992 21.8263ZM95.5654 20.8477C95.9963 20.8477 96.3595 20.763 96.6549 20.5938C96.9535 20.4245 97.1781 20.206 97.3289 19.9382C97.4828 19.6705 97.5597 19.3888 97.5597 19.0934V18.0962C97.5136 18.1516 97.412 18.2024 97.2551 18.2486C97.1012 18.2917 96.9227 18.3301 96.7195 18.364C96.5195 18.3948 96.3241 18.4225 96.1333 18.4471C95.9455 18.4686 95.7932 18.4871 95.6762 18.5025C95.3931 18.5394 95.1284 18.5994 94.8822 18.6825C94.6391 18.7625 94.4421 18.8841 94.2913 19.0472C94.1436 19.2073 94.0697 19.4258 94.0697 19.7028C94.0697 20.0813 94.2097 20.3675 94.4898 20.5614C94.7729 20.7522 95.1315 20.8477 95.5654 20.8477ZM100.638 24.3192V14.5692H101.69V15.6957H101.82C101.9 15.5726 102.01 15.4156 102.152 15.2248C102.297 15.0309 102.503 14.8585 102.771 14.7077C103.041 14.5539 103.408 14.4769 103.869 14.4769C104.466 14.4769 104.993 14.6262 105.448 14.9247C105.904 15.2232 106.259 15.6464 106.515 16.1942C106.77 16.7421 106.898 17.3884 106.898 18.1332C106.898 18.8841 106.77 19.535 106.515 20.0859C106.259 20.6338 105.905 21.0585 105.453 21.3601C105 21.6586 104.479 21.8079 103.888 21.8079C103.432 21.8079 103.068 21.7325 102.794 21.5817C102.52 21.4278 102.309 21.2539 102.161 21.06C102.013 20.863 101.9 20.6999 101.82 20.5707H101.727V24.3192H100.638ZM101.709 18.1147C101.709 18.6502 101.787 19.1226 101.944 19.532C102.101 19.9382 102.33 20.2567 102.632 20.4876C102.934 20.7153 103.303 20.8292 103.74 20.8292C104.196 20.8292 104.576 20.7092 104.88 20.4691C105.188 20.226 105.419 19.8997 105.573 19.4904C105.73 19.078 105.808 18.6194 105.808 18.1147C105.808 17.6161 105.731 17.1668 105.577 16.7667C105.427 16.3635 105.197 16.045 104.89 15.8111C104.585 15.5741 104.202 15.4556 103.74 15.4556C103.297 15.4556 102.924 15.5679 102.623 15.7926C102.321 16.0142 102.094 16.325 101.94 16.7251C101.786 17.1222 101.709 17.5853 101.709 18.1147ZM111.44 21.8079C110.8 21.8079 110.239 21.6555 109.755 21.3509C109.275 21.0462 108.9 20.6199 108.629 20.0721C108.361 19.5243 108.227 18.8841 108.227 18.1516C108.227 17.413 108.361 16.7682 108.629 16.2173C108.9 15.6664 109.275 15.2386 109.755 14.9339C110.239 14.6293 110.8 14.4769 111.44 14.4769C112.08 14.4769 112.641 14.6293 113.121 14.9339C113.604 15.2386 113.979 15.6664 114.247 16.2173C114.518 16.7682 114.653 17.413 114.653 18.1516C114.653 18.8841 114.518 19.5243 114.247 20.0721C113.979 20.6199 113.604 21.0462 113.121 21.3509C112.641 21.6555 112.08 21.8079 111.44 21.8079ZM111.44 20.8292C111.927 20.8292 112.327 20.7045 112.641 20.4553C112.955 20.206 113.187 19.8782 113.338 19.4719C113.489 19.0657 113.564 18.6256 113.564 18.1516C113.564 17.6777 113.489 17.236 113.338 16.8267C113.187 16.4174 112.955 16.0865 112.641 15.8342C112.327 15.5818 111.927 15.4556 111.44 15.4556C110.954 15.4556 110.554 15.5818 110.24 15.8342C109.926 16.0865 109.694 16.4174 109.543 16.8267C109.392 17.236 109.317 17.6777 109.317 18.1516C109.317 18.6256 109.392 19.0657 109.543 19.4719C109.694 19.8782 109.926 20.206 110.24 20.4553C110.554 20.7045 110.954 20.8292 111.44 20.8292ZM117.332 19.0749L117.314 17.7269H117.535L120.638 14.5692H121.986L118.68 17.9116H118.588L117.332 19.0749ZM116.316 21.6602V12.2056H117.406V21.6602H116.316ZM120.822 21.6602L118.052 18.1516L118.828 17.3945L122.207 21.6602H120.822Z" fill="white"/>
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_3129_4800">
+                                                            <rect width="130" height="32" fill="white" transform="translate(0 0.660156)"/>
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg>                                                 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div data-pg-class-style="visual_right_design_flow" class="lg:col-end-13 lg:col-start-8 xl:col-start-6">
+                                        <img src="img/table-view-640_x_393.png" class="rounded-lg shadow-lg w-full lg:sticky lg:top-24" loading="lazy" alt="Sketches in a notebook" width="640" height="393" srcset="img/table-view-320_x_196.png 320w, img/table-view-640_x_393.png 640w, img/table-view-1280_x_785.png 1280w, img/table-view-1920_x_1178.png 1920w, img/table-view-2560_x_1571.png 2560w" sizes="(min-width: 1600px) 747px, (min-width: 1280px) calc(43.67vw + 57px), (min-width: 1040px) calc(41.82vw - 82px), calc(95.56vw - 35px)" data-pg-class-style="image_design_flow">
+                                    </div>
+                                </div>
+                                <img src="img/flow-arrow.svg" width="500" height="200" class=" hidden lg:block mx-auto">
+                                <div class="gap-10 grid lg:grid-cols-12 lg:gap-0 lg:mt-0 mt-16" data-pg-class-style="container" data-pg-class-style-inline="lg:mt-0 mt-16">
+                                    <div class="lg:col-end-13 lg:col-start-7 xl:col-start-9" data-pg-class-style="text_right_design_flow">
+                                        <h4 data-pg-class-style="heading_4" class="font-semibold leading-normal mb-6 text-gray-900 text-xl">Calendar view of a location</h4>
+                                        <p>The new calendar view replaces the old time and location selector. You can also select here the location and date of the work on this screen:</p>
+                                        <ul data-pg-class-style="unordered_list" class="flex flex-col gap-4 mb-5">
+                                            <li>on the left sidebar the location,
+</li>
+                                            <li>with the help of the date picker button the date.
+</li>
+                                        </ul>
+                                        <p data-pg-class-style="highlight.norma_data_input" class="leading-8 text-lg font-medium max-w-prose mb-6 text-transparent bg-clip-text bg-gradient-to-br from-norma-yellow to-norma-pink">There are many benefits of the new view:</p>
+                                        <ol data-pg-class-style="unordered_list" class="flex flex-col gap-4 mb-5">
+                                            <li>With a glance at the three-month calendar view, the administrator can see for which days and at what rate they have created and/or filled daily timesheets for the selected location.                                                                                                  
+</li>
+                                            <li>Hovering over a day that contains unfilled and missing daily timesheets, the new screen allows the administrator to choose between filling the created unfilled timesheets or generating the missing ones.                                                                                                  
+</li>
+                                            <li>You can list the employees belonging to a location by toggling the button. Clicking one of the employees switches the calendar to their view.<br> 
+                                                <svg width="85" height="15" viewBox="0 0 85 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="mt-2"> 
+                                                    <g clip-path="url(#clip0_3799_3895)"> 
+                                                        <path d="M17 0.289062H7C3.13401 0.289062 0 3.42307 0 7.28906C0 11.1551 3.13401 14.2891 7 14.2891H17C20.866 14.2891 24 11.1551 24 7.28906C24 3.42307 20.866 0.289062 17 0.289062Z" fill="#B6C9D3"/> 
+                                                        <path d="M7 11.2891C9.20914 11.2891 11 9.4982 11 7.28906C11 5.07992 9.20914 3.28906 7 3.28906C4.79086 3.28906 3 5.07992 3 7.28906C3 9.4982 4.79086 11.2891 7 11.2891Z" fill="white"/> 
+                                                    </g>                                                     
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M45.1716 3.75387L48.3536 6.93585C48.5488 7.13111 48.5488 7.44769 48.3536 7.64296L45.1716 10.8249C44.9763 11.0202 44.6597 11.0202 44.4645 10.8249C44.2692 10.6297 44.2692 10.3131 44.4645 10.1178L46.7929 7.7894H36V6.7894H46.7929L44.4645 4.46098C44.2692 4.26571 44.2692 3.94913 44.4645 3.75387C44.6597 3.55861 44.9763 3.55861 45.1716 3.75387Z" fill="#374151"/> 
+                                                    <g clip-path="url(#clip1_3799_3895)"> 
+                                                        <path d="M77.5 0.289062H67.5C63.634 0.289062 60.5 3.42307 60.5 7.28906C60.5 11.1551 63.634 14.2891 67.5 14.2891H77.5C81.366 14.2891 84.5 11.1551 84.5 7.28906C84.5 3.42307 81.366 0.289062 77.5 0.289062Z" fill="#1699B5"/> 
+                                                        <path d="M77.5 11.2891C79.7091 11.2891 81.5 9.4982 81.5 7.28906C81.5 5.07992 79.7091 3.28906 77.5 3.28906C75.2909 3.28906 73.5 5.07992 73.5 7.28906C73.5 9.4982 75.2909 11.2891 77.5 11.2891Z" fill="white"/> 
+                                                    </g>                                                     
+                                                    <defs> 
+                                                        <clipPath id="clip0_3799_3895"> 
+                                                            <rect width="24" height="14" fill="white" transform="translate(0 0.289062)"/> 
+                                                        </clipPath>                                                         
+                                                        <clipPath id="clip1_3799_3895"> 
+                                                            <rect width="24" height="14" fill="white" transform="translate(60.5 0.289062)"/> 
+                                                        </clipPath>                                                         
+                                                    </defs>                                                     
+                                                </svg>                                                 
+                                            </li>
+                                        </ol>
+                                    </div>
+                                    <div class="lg:col-end-6 lg:col-start-1 xl:col-end-8 lg:row-start-1" data-pg-class-style="visual_left_design_flow">
+                                        <img src="img/calendar-view-location-640_x_393.png" class="rounded-lg shadow-lg w-full lg:sticky lg:top-24" loading="lazy" alt="Sketches in a notebook" width="640" height="393" srcset="img/calendar-view-location-320_x_196.png 320w, img/calendar-view-location-640_x_393.png 640w, img/calendar-view-location-1280_x_785.png 1280w, img/calendar-view-location-1920_x_1178.png 1920w, img/calendar-view-location-2560_x_1571.png 2560w" sizes="(min-width: 1600px) 747px, (min-width: 1280px) calc(43.67vw + 57px), (min-width: 1040px) calc(41.82vw - 82px), calc(95.56vw - 35px)" data-pg-class-style="image_design_flow">
+                                    </div>
+                                </div>
+                                <img src="img/flow-arrow.svg" width="500" height="200" class="-scale-x-100 hidden mx-auto lg:block">
+                                <div class="gap-10 grid lg:grid-cols-12 lg:gap-0 lg:mt-0 mt-16" data-pg-class-style="container">
+                                    <div class="lg:col-end-7 lg:col-start-1 xl:col-end-5" data-pg-class-style="text_left_design_flow">
+                                        <h4 data-pg-class-style="heading_4" class="font-semibold leading-normal mb-6 text-gray-900 text-xl">Calendar view of an employee</h4>
+                                        <p>On this screen, the administrator can set multiple daily timesheets for an employee with different statuses.</p>
+                                        <ul data-pg-class-style="unordered_list" class="flex flex-col gap-4 mb-5">
+                                            <li>Different colors signify different statuses.
+</li>
+                                            <li>On the right sidebar the administrator can select the status of the employee&rsquo;s day.
+</li>
+                                            <li>After picking up the status, the administrator can select the days on the calendar&mdash;by painting with the colored cursor&mdash;for which he wants to create daily timesheets with the selected status.
+</li>
+                                            <li>Once the administrator has finished selecting the daily timesheets for creation, pressing the green button will generate those timesheets. The application will then navigate to the timesheets to be completed by the administrator.</li>
+                                        </ul>
+                                    </div>
+                                    <div data-pg-class-style="visual_right_design_flow" class="lg:col-end-13 lg:col-start-8 xl:col-start-6">
+                                        <img src="img/calendar-view-employee-640_x_393.png" class="rounded-lg shadow-lg w-full lg:sticky lg:top-24" loading="lazy" alt="Sketches in a notebook" width="640" height="393" srcset="img/calendar-view-employee-320_x_196.png 320w, img/calendar-view-employee-640_x_393.png 640w, img/calendar-view-employee-1280_x_785.png 1280w, img/calendar-view-employee-1920_x_1178.png 1920w, img/calendar-view-employee-2560_x_1571.png 2560w" sizes="(min-width: 1600px) 747px, (min-width: 1280px) calc(43.67vw + 57px), (min-width: 1040px) calc(41.82vw - 82px), calc(95.56vw - 35px)" data-pg-class-style="image_design_flow">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="bg-gray-900" data-pgc-define="myblocks-section-key-learnings" data-pgc-define-name="Block - Key learnings" data-pgc-edit="background[class]">
+                    <div data-pg-class-style="wrapper" class="flex flex-col mx-6 py-16 sm:mx-8 sm:py-20 md:mx-10 md:py-20 lg:mx-24 lg:py-24 xl:mx-28 xl:py-28 2xl:mx-auto 2xl:py-40 max-w-prose" data-pg-class-style-inline="max-w-prose">
+                        <h2 class="mb-12" data-pgc="myblocks-block-heading-2" data-pgc-field="order"><div class="font-bold text-sm tracking-wider leading-none mb-2 lg:text-base text-gray-50" data-pg-class-style="heading_2_number" data-pgc-field="number" data-pg-class-style-inline="text-gray-50">04</div><div class="border-b font-bold leading-none text-4xl uppercase pb-8 lg:text-5xl text-gray-50 border-gray-50" data-pg-class-style="heading_2" data-pgc-field="title" data-pg-class-style-inline="text-gray-50 border-gray-50">Key learnings</div><!--[Pinegrow components saved data - this data is no longer used in the component. We're saving it just in case. Clear this with Components -> Clear saved unused edits]<div class="border-b font-bold leading-none text-4xl uppercase pb-8 lg:text-5xl text-gray-50 border-gray-50" data-pg-class-style="heading_2" data-pgc-field="title" data-pg-class-style-inline="text-gray-50 border-gray-50">Key learnings</div><div class="border-b font-bold leading-none text-4xl uppercase pb-8 lg:text-5xl text-gray-50 border-gray-50" data-pg-class-style="heading_2" data-pgc-field="title" data-pg-class-style-inline="text-gray-50 border-gray-50">Key learnings</div>--></h2>
+                        <div class="flex flex-col gap-16">
+                            <div>
+                                <h4 data-pg-class-style="heading_4.key_learnings" class="font-semibold leading-normal text-xl text-transparent bg-clip-text from-norma-yellow to-norma-pink bg-gradient-to-br mb-2">Understanding our users</h4>
+                                <p class="text-gray-50">With the help of good usability testing, we were able to understand our users&rsquo; real-life needs and reveal their problems.</p>
+                            </div>
+                            <div>
+                                <h4 data-pg-class-style="heading_4.key_learnings" class="font-semibold leading-normal text-xl text-transparent bg-clip-text from-norma-yellow to-norma-pink bg-gradient-to-br mb-2" data-pg-class-style-inline="text-transparent bg-clip-text from-norma-yellow to-norma-pink bg-gradient-to-br">Tackling UX challenges</h4>
+                                <p class="text-gray-50">Seeing different workflows from our users made us think from a different perspective to solve their problems.</p>
+                            </div>
+                            <div>
+                                <h4 data-pg-class-style="heading_4.key_learnings" class="font-semibold leading-normal text-xl text-transparent bg-clip-text from-norma-yellow to-norma-pink bg-gradient-to-br mb-2" data-pg-class-style-inline="text-transparent bg-clip-text from-norma-yellow to-norma-pink bg-gradient-to-br">Designing resuable components</h4>
+                                <p class="text-gray-50">Implementing a solution in a way that we could reuse it in the leave planner feature.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="my-work" class="bg-gray-300 2xl:bg-gray-300" data-pgc="myblocks-section-mywork" data-pgc-field="cards">
+                    <div class="mx-6 pb-12 pt-16 sm:mx-8 sm:py-20 md:mx-10 md:py-20 lg:mx-24 lg:py-24 xl:mx-28 2xl:bg-gray-300 2xl:max-w-screen-xl 2xl:mx-auto">
+                        <h2 class="border-b font-bold leading-none text-4xl uppercase pb-8 lg:text-5xl border-gray-900 text-gray-900" data-pg-class-style="heading_2" data-pgc-field="section title">Other works</h2>
+                        <article class="bg-norma-red duration-300 ease-out gap-12 grid group hover:shadow-2xl lg:grid-cols-12 lg:mt-16 lg:py-24 md:mt-12 md:py-20 mt-6 p-12 relative rounded-lg sm:gap-0 sm:grid-cols-11 sm:mt-7 sm:px-0 sm:py-16 transition-all xl:py-28" data-pgc="myblocks-card-mywork" data-pgc-field="card-background">
+                            <div class="flex flex-col gap-6 sm:col-end-6 sm:col-start-2 sm:self-center lg:gap-12">
+                                <h2 class="bg-clip-text bg-gradient-to-br font-bold from-norma-yellow leading-tight text-4xl text-gray-50 to-norma-pink lg:leading-tight lg:text-5xl xl:leading-tight xl:text-6xl" data-pgc-field="title">Dashboard<br>for reports</h2><a href="norma-dashboard.html" data-pg-class-style="open_case_study_button" class="font-bold text-gray-50 tracking-wider flex text-left" data-pgc-field="link"><span class="absolute inset-0"></span><span class="border-norma_yellow">Open case study</span> <img src="img/arrow.svg" class="duration-300 ease-out group-hover:ml-6 ml-3 transition-all"></a>
+                            </div>
+                            <picture class="rounded-lg self-center sm:col-end-11 sm:col-start-7 lg:col-end-12" data-pgc-field="picture">
+                                <img class="bg-gradient-to-br from-norma-blue-light from-norma_yellow rounded-2xl to-norma-blue-dark to-norma_pink" srcset="img/cover-image-norma-report-256_x_182.png 256w, img/cover-image-norma-report-770_x_549.png 770w, img/cover-image-norma-report-1060_x_757.png 1060w, img/cover-image-norma-report-1280_x_914.png 1280w, img/cover-image-norma-report-1510_x_1078.png 1510w, img/cover-image-norma-report-1710_x_1220.png 1710w, img/cover-image-norma-report-1890_x_1349.png 1890w, img/cover-image-norma-report-2048_x_1462.png 2048w" alt="Norma user interface" width="1280" height="914" loading="lazy" sizes="(min-width: 1580px) 533px, (min-width: 640px) calc(35.22vw - 16px), (min-width: 380px) calc(100vw - 144px), calc(16.67vw + 156px)" src="img/cover-image-norma-report-1280_x_914.png">
+                            </picture>
+                        </article>
+                        <article class="bg-connect-blue bg-gray-900 duration-300 ease-out gap-12 grid group hover:shadow-2xl lg:grid-cols-12 lg:mt-16 lg:py-24 md:mt-12 md:py-20 mt-6 p-12 relative rounded-lg sm:gap-0 sm:grid-cols-11 sm:mt-7 sm:px-0 sm:py-16 transition-all xl:py-28" data-pgc="myblocks-card-mywork" data-pgc-field="card-background">
+                            <div class="flex flex-col gap-6 sm:col-end-6 sm:col-start-2 sm:self-center lg:gap-12">
+                                <h2 class="bg-clip-text bg-gradient-to-br font-bold from-connect_green from-norma_yellow leading-tight text-4xl text-transparent to-connect_cyan to-norma_pink lg:leading-tight lg:text-5xl xl:leading-tight xl:text-6xl" data-pgc-field="title">App <br>redesign</h2><a href="connect.html" data-pg-class-style="open_case_study_button" class="font-bold text-gray-50 tracking-wider flex text-left" data-pgc-field="link"><span class="absolute inset-0"></span><span class="border-norma_yellow">Open case study</span> <img src="img/arrow.svg" class="duration-300 ease-out group-hover:ml-6 ml-3 transition-all"></a>
+                            </div>
+                            <picture class="rounded-lg self-center sm:col-end-11 sm:col-start-7 lg:col-end-12" data-pgc-field="picture">
+                                <source type="image/avif" srcset="img/cover-image-connect-256_x_182.avif 256w, img/cover-image-connect-770_x_549.avif 770w, img/cover-image-connect-1060_x_757.avif 1060w, img/cover-image-connect-1280_x_914.avif 1280w, img/cover-image-connect-1510_x_1078.avif 1510w, img/cover-image-connect-1710_x_1220.avif 1710w, img/cover-image-connect-1890_x_1349.avif 1890w, img/cover-image-connect-2048_x_1462.avif 2048w" sizes="(min-width: 1580px) 533px, (min-width: 640px) calc(35.22vw - 16px), calc(97.5vw - 129px)" width="1280" height="914">
+                                <source type="image/webp" srcset="img/cover-image-connect-256_x_182.webp 256w, img/cover-image-connect-770_x_549.webp 770w, img/cover-image-connect-1060_x_757.webp 1060w, img/cover-image-connect-1280_x_914.webp 1280w, img/cover-image-connect-1510_x_1078.webp 1510w, img/cover-image-connect-1710_x_1220.webp 1710w, img/cover-image-connect-1890_x_1349.webp 1890w, img/cover-image-connect-2048_x_1462.webp 2048w" sizes="(min-width: 1580px) 533px, (min-width: 640px) calc(35.22vw - 16px), calc(97.5vw - 129px)" width="1280" height="914">
+                                <img class="bg-gradient-to-br from-connect_green from-norma_yellow rounded-2xl to-connect_cyan to-norma_pink" srcset="img/cover-image-connect-256_x_182.png 256w, img/cover-image-connect-770_x_549.png 770w, img/cover-image-connect-1060_x_757.png 1060w, img/cover-image-connect-1280_x_914.png 1280w, img/cover-image-connect-1510_x_1078.png 1510w, img/cover-image-connect-1710_x_1220.png 1710w, img/cover-image-connect-1890_x_1349.png 1890w, img/cover-image-connect-2048_x_1462.png 2048w" alt="Norma user interface" width="1280" height="914" loading="lazy" sizes="(min-width: 1580px) 533px, (min-width: 640px) calc(35.22vw - 16px), calc(97.5vw - 129px)" src="img/cover-image-connect-1280_x_914.png">
+                            </picture>
+                        </article>
+                    </div>
+                </section>
+                <footer class="bg-gray-300 flex flex-row gap-6 items-center justify-center pb-12 sm:pb-20 lg:pb-24" data-pgc="myblocks-section-footer"><a href="mailto: hello@kisskrisztian.com" class="font-semibold leading-none text-gray-900 text-lg" data-pg-class-style="footer">hello@kisskrisztian.com</a><a href=""><img src="img/linkedin.svg"> </a>
+                </footer>
+            </article>
+        </main>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+        <script>
+            gsap.registerPlugin(ScrollTrigger)
+
+            let container = document.getElementById("container");
+            let mm = gsap.matchMedia();
+
+            mm.add("(min-width: 768px)", () => {
+
+            gsap.to(container, {
+                x: () => -(container.scrollWidth) + "px",
+                ease: "none",
+                scrollTrigger: {
+                    trigger: container,
+                    invalidateOnRefresh: true,
+                    pin: true,
+                    scrub: 1,
+                    end: () => "+=" + container.offsetWidth
+                }
+            })
+
+});
+        </script>
+        <script id="rendered-js">
+            var figure = $(".video").hover(hoverVideo, hideVideo);
+
+            function hoverVideo(e) {
+                $('video', this).get(0).play();
+            }
+
+            function hideVideo(e) {
+                $('video', this).get(0).pause();
+            }
+        </script>         
+        <script src="pgia/lib/pgia.js"></script>
+    </body>     
+</html>

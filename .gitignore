@@ -1,0 +1,11 @@
+_pgbackup
+_pginfo
+.SynologyWorkingDirectory
+pgia
+previews
+screenshots
+desktop.ini
+pinegrow.json
+projectdb.pgml
+
+**/.DS_Store
