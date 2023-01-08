@@ -8,7 +8,7 @@ p:not(:last-child) {
 }
 
 ul li {
-    list-style: url('/assets/img/bullet-point.svg');
+    list-style: url('/img/bullet-point.svg');
     padding-left: 8px;
     margin-left: 16px;
     max-width: 65ch;
@@ -50,12 +50,12 @@ nav li {
     background-color: red;
 }
 
-/* .pin-spacer {
-    background-image: url("/assets/img/scroll.svg");
+/*.pin-spacer {
+    background-image: url("/img/scroll.svg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
-} */
+}*/
 @media screen and (min-width: 1024px) and (orientation: landscape) {
     h1 {
         font-size: clamp(3rem, 3vw + 1.08rem, 6rem) !important;
@@ -69,4 +69,4 @@ nav li {
         line-height: clamp(3rem, 3vw + 3rem, 6rem) !important;
     }
 }
-}
+
