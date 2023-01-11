@@ -21,8 +21,10 @@ ol li {
     max-width: 65ch;
 }
 
-nav li {
+nav ul li {
     list-style: none;
+    padding-left: 0;
+    margin-left: 0;
 }
 
 #skip-link {
