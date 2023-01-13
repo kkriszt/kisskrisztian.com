@@ -976,6 +976,9 @@ select{
 .place-content-center{
   place-content: center;
 }
+.place-items-start{
+  place-items: start;
+}
 .items-center{
   align-items: center;
 }
@@ -1796,6 +1799,11 @@ body, html {
   }
 
 
+  .xl\:col-start-6{
+    grid-column-start: 6;
+  }
+
+
   .xl\:col-end-6{
     grid-column-end: 6;
   }
@@ -1803,6 +1811,11 @@ body, html {
 
   .xl\:col-end-7{
     grid-column-end: 7;
+  }
+
+
+  .xl\:col-end-5{
+    grid-column-end: 5;
   }
 
 
@@ -1819,6 +1832,11 @@ body, html {
 
   .xl\:mb-28{
     margin-bottom: 7rem;
+  }
+
+
+  .xl\:block{
+    display: block;
   }
 
 
@@ -1927,12 +1945,6 @@ body, html {
 
   .\32xl\:self-center{
     align-self: center;
-  }
-
-
-  .\32xl\:bg-gray-300{
-    --tw-bg-opacity: 1;
-    background-color: rgb(209 213 219 / var(--tw-bg-opacity));
   }
 
 
@@ -2079,6 +2091,18 @@ body, html {
   }
 
 
+  .lg\:scale-x-75{
+    --tw-scale-x: .75;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+
+  .lg\:scale-y-75{
+    --tw-scale-y: .75;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+
   .lg\:gap-16{
     gap: 4rem;
   }
@@ -2108,28 +2132,13 @@ body, html {
   }
 
 
-  .xl\:col-start-6{
-    grid-column-start: 6;
-  }
-
-
   .xl\:col-start-9{
     grid-column-start: 9;
   }
 
 
-  .xl\:col-end-5{
-    grid-column-end: 5;
-  }
-
-
   .xl\:col-end-8{
     grid-column-end: 8;
-  }
-
-
-  .xl\:block{
-    display: block;
   }
 
 
@@ -2154,9 +2163,25 @@ body, html {
   .\32xl\:h-\[calc\(100\%\+160px\)\]{
     height: calc(100% + 160px);
   }
+
+
+  .\32xl\:bg-gray-300{
+    --tw-bg-opacity: 1;
+    background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+  }
 }
 
 @media (orientation: portrait){
+
+
+  .portrait\:place-items-center{
+    place-items: center;
+  }
+
+
+  .portrait\:self-center{
+    align-self: center;
+  }
 
 
   .portrait\:text-center{
